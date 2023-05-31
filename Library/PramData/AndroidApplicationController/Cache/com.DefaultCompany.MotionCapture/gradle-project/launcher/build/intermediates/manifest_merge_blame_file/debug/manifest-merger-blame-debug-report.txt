@@ -1,0 +1,243 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.DefaultCompany.MotionCapture"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="24"
+9-->C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="33" />
+10-->C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\launcher\src\main\AndroidManifest.xml:4:3-163
+13        android:anyDensity="true"
+13-->C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\launcher\src\main\AndroidManifest.xml:4:135-160
+14        android:largeScreens="true"
+14-->C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\launcher\src\main\AndroidManifest.xml:4:78-105
+15        android:normalScreens="true"
+15-->C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\launcher\src\main\AndroidManifest.xml:4:49-77
+16        android:smallScreens="true"
+16-->C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\launcher\src\main\AndroidManifest.xml:4:21-48
+17        android:xlargeScreens="true" />
+17-->C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\launcher\src\main\AndroidManifest.xml:4:106-134
+18
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-67
+19-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-64
+20
+21    <uses-feature android:glEsVersion="0x00030002" />
+21-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-54
+21-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:19-51
+22    <uses-feature
+22-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-15:36
+23        android:name="android.hardware.touchscreen"
+23-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-52
+24        android:required="false" />
+24-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-33
+25    <uses-feature
+25-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:5-18:36
+26        android:name="android.hardware.touchscreen.multitouch"
+26-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:9-63
+27        android:required="false" />
+27-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-33
+28    <uses-feature
+28-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:5-21:36
+29        android:name="android.hardware.touchscreen.multitouch.distinct"
+29-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:9-72
+30        android:required="false" />
+30-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:9-33
+31    <!--
+32      #gles3 - glEsVersion is 0x00030000 for OpenGL ES 3.0 support. Change it to 0x00020000 if
+33      only OpenGL ES 2.0 support is needed.
+34    -->
+35    <uses-permission android:name="android.permission.CAMERA" />
+35-->[:GfxPluginCardboard:] C:\Users\kr4kn\.gradle\caches\transforms-3\263af1aefbd9db433a9ec45e54f676b3\transformed\jetified-GfxPluginCardboard\AndroidManifest.xml:17:5-65
+35-->[:GfxPluginCardboard:] C:\Users\kr4kn\.gradle\caches\transforms-3\263af1aefbd9db433a9ec45e54f676b3\transformed\jetified-GfxPluginCardboard\AndroidManifest.xml:17:22-62
+36    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+36-->[:GfxPluginCardboard:] C:\Users\kr4kn\.gradle\caches\transforms-3\263af1aefbd9db433a9ec45e54f676b3\transformed\jetified-GfxPluginCardboard\AndroidManifest.xml:18:5-81
+36-->[:GfxPluginCardboard:] C:\Users\kr4kn\.gradle\caches\transforms-3\263af1aefbd9db433a9ec45e54f676b3\transformed\jetified-GfxPluginCardboard\AndroidManifest.xml:18:22-78
+37    <uses-permission android:name="android.permission.NFC" />
+37-->[:GfxPluginCardboard:] C:\Users\kr4kn\.gradle\caches\transforms-3\263af1aefbd9db433a9ec45e54f676b3\transformed\jetified-GfxPluginCardboard\AndroidManifest.xml:20:5-62
+37-->[:GfxPluginCardboard:] C:\Users\kr4kn\.gradle\caches\transforms-3\263af1aefbd9db433a9ec45e54f676b3\transformed\jetified-GfxPluginCardboard\AndroidManifest.xml:20:22-59
+38    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+39
+40    <application
+40-->C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\launcher\src\main\AndroidManifest.xml:3:3-83
+41        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+41-->[androidx.core:core:1.7.0] C:\Users\kr4kn\.gradle\caches\transforms-3\0c734a8f9451ded3159b05d46fc9a23a\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+42        android:debuggable="true"
+43        android:extractNativeLibs="true"
+43-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:18-50
+44        android:icon="@mipmap/app_icon"
+44-->C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\launcher\src\main\AndroidManifest.xml:3:16-47
+45        android:label="@string/app_name" >
+45-->C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\launcher\src\main\AndroidManifest.xml:3:48-80
+46        <meta-data
+46-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:9-26:33
+47            android:name="unity.splash-mode"
+47-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-45
+48            android:value="0" />
+48-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-30
+49        <meta-data
+49-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:9-29:36
+50            android:name="unity.splash-enable"
+50-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-47
+51            android:value="True" />
+51-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-33
+52        <meta-data
+52-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:9-32:36
+53            android:name="unity.launch-fullscreen"
+53-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-51
+54            android:value="True" />
+54-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-33
+55        <meta-data
+55-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:33:9-35:37
+56            android:name="unity.allow-resizable-window"
+56-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:13-56
+57            android:value="False" />
+57-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-34
+58        <meta-data
+58-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:9-38:50
+59            android:name="notch.config"
+59-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-40
+60            android:value="portrait|landscape" />
+60-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-47
+61        <meta-data
+61-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:39:9-41:36
+62            android:name="unity.auto-report-fully-drawn"
+62-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:40:13-57
+63            android:value="true" />
+63-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:41:13-33
+64        <meta-data
+64-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:42:9-44:36
+65            android:name="unity.strip-engine-code"
+65-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:43:13-51
+66            android:value="true" />
+66-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:44:13-33
+67
+68        <activity
+68-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:46:9-68:20
+69            android:name="com.unity3d.player.UnityPlayerActivity"
+69-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:47:13-66
+70            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+70-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:48:13-194
+71            android:enabled="true"
+71-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:49:13-35
+72            android:exported="true"
+72-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:50:13-36
+73            android:hardwareAccelerated="false"
+73-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:51:13-48
+74            android:launchMode="singleTask"
+74-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:52:13-44
+75            android:resizeableActivity="false"
+75-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:53:13-47
+76            android:screenOrientation="landscape"
+76-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:54:13-50
+77            android:theme="@style/UnityThemeSelector" >
+77-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:55:13-54
+78            <intent-filter>
+78-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:56:13-60:29
+79                <category android:name="android.intent.category.LAUNCHER" />
+79-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:57:17-77
+79-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:57:27-74
+80
+81                <action android:name="android.intent.action.MAIN" />
+81-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:59:17-69
+81-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:59:25-66
+82            </intent-filter>
+83
+84            <meta-data
+84-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:62:13-64:40
+85                android:name="unityplayer.UnityActivity"
+85-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:63:17-57
+86                android:value="true" />
+86-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:64:17-37
+87            <meta-data
+87-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:65:13-67:40
+88                android:name="notch_support"
+88-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:66:17-45
+89                android:value="true" />
+89-->[:unityLibrary] C:\Users\kr4kn\Desktop\MotionCapture\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MotionCapture\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:67:17-37
+90        </activity>
+91        <activity
+91-->[:GfxPluginCardboard:] C:\Users\kr4kn\.gradle\caches\transforms-3\263af1aefbd9db433a9ec45e54f676b3\transformed\jetified-GfxPluginCardboard\AndroidManifest.xml:23:9-27:66
+92            android:name="com.google.cardboard.sdk.QrCodeCaptureActivity"
+92-->[:GfxPluginCardboard:] C:\Users\kr4kn\.gradle\caches\transforms-3\263af1aefbd9db433a9ec45e54f676b3\transformed\jetified-GfxPluginCardboard\AndroidManifest.xml:24:13-74
+93            android:exported="false"
+93-->[:GfxPluginCardboard:] C:\Users\kr4kn\.gradle\caches\transforms-3\263af1aefbd9db433a9ec45e54f676b3\transformed\jetified-GfxPluginCardboard\AndroidManifest.xml:25:13-37
+94            android:label="@string/title_activity_qr_code_capture"
+94-->[:GfxPluginCardboard:] C:\Users\kr4kn\.gradle\caches\transforms-3\263af1aefbd9db433a9ec45e54f676b3\transformed\jetified-GfxPluginCardboard\AndroidManifest.xml:26:13-67
+95            android:theme="@style/Theme.AppCompat.NoActionBar" />
+95-->[:GfxPluginCardboard:] C:\Users\kr4kn\.gradle\caches\transforms-3\263af1aefbd9db433a9ec45e54f676b3\transformed\jetified-GfxPluginCardboard\AndroidManifest.xml:27:13-63
+96        <!--
+97          Activity whose sole purpose is to update Cardboard device params when a Cardboard V1
+98          NFC tag is detected.
+99        -->
+100        <activity
+100-->[:GfxPluginCardboard:] C:\Users\kr4kn\.gradle\caches\transforms-3\263af1aefbd9db433a9ec45e54f676b3\transformed\jetified-GfxPluginCardboard\AndroidManifest.xml:33:9-46:20
+101            android:name="com.google.cardboard.sdk.HeadsetDetectionActivity"
+101-->[:GfxPluginCardboard:] C:\Users\kr4kn\.gradle\caches\transforms-3\263af1aefbd9db433a9ec45e54f676b3\transformed\jetified-GfxPluginCardboard\AndroidManifest.xml:34:13-77
+102            android:exported="true"
+102-->[:GfxPluginCardboard:] C:\Users\kr4kn\.gradle\caches\transforms-3\263af1aefbd9db433a9ec45e54f676b3\transformed\jetified-GfxPluginCardboard\AndroidManifest.xml:35:13-36
+103            android:label="@string/headset_detection_activity_title" >
+103-->[:GfxPluginCardboard:] C:\Users\kr4kn\.gradle\caches\transforms-3\263af1aefbd9db433a9ec45e54f676b3\transformed\jetified-GfxPluginCardboard\AndroidManifest.xml:36:13-69
+104
+105            <!-- Handles the Cardboard V1 NFC tag released at Google I/O 2014. -->
+106            <intent-filter>
+106-->[:GfxPluginCardboard:] C:\Users\kr4kn\.gradle\caches\transforms-3\263af1aefbd9db433a9ec45e54f676b3\transformed\jetified-GfxPluginCardboard\AndroidManifest.xml:39:13-45:29
+107                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+107-->[:GfxPluginCardboard:] C:\Users\kr4kn\.gradle\caches\transforms-3\263af1aefbd9db433a9ec45e54f676b3\transformed\jetified-GfxPluginCardboard\AndroidManifest.xml:40:17-77
+107-->[:GfxPluginCardboard:] C:\Users\kr4kn\.gradle\caches\transforms-3\263af1aefbd9db433a9ec45e54f676b3\transformed\jetified-GfxPluginCardboard\AndroidManifest.xml:40:25-74
+108
+109                <category android:name="android.intent.category.DEFAULT" />
+109-->[:GfxPluginCardboard:] C:\Users\kr4kn\.gradle\caches\transforms-3\263af1aefbd9db433a9ec45e54f676b3\transformed\jetified-GfxPluginCardboard\AndroidManifest.xml:42:17-76
+109-->[:GfxPluginCardboard:] C:\Users\kr4kn\.gradle\caches\transforms-3\263af1aefbd9db433a9ec45e54f676b3\transformed\jetified-GfxPluginCardboard\AndroidManifest.xml:42:27-73
+110
+111                <data android:scheme="cardboard" />
+111-->[:GfxPluginCardboard:] C:\Users\kr4kn\.gradle\caches\transforms-3\263af1aefbd9db433a9ec45e54f676b3\transformed\jetified-GfxPluginCardboard\AndroidManifest.xml:44:17-52
+111-->[:GfxPluginCardboard:] C:\Users\kr4kn\.gradle\caches\transforms-3\263af1aefbd9db433a9ec45e54f676b3\transformed\jetified-GfxPluginCardboard\AndroidManifest.xml:44:23-49
+112            </intent-filter>
+113        </activity>
+114        <activity
+114-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\kr4kn\.gradle\caches\transforms-3\6d1b2afc95786592ae337472f8900bc4\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:23:9-26:75
+115            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+115-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\kr4kn\.gradle\caches\transforms-3\6d1b2afc95786592ae337472f8900bc4\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:24:13-79
+116            android:exported="false"
+116-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\kr4kn\.gradle\caches\transforms-3\6d1b2afc95786592ae337472f8900bc4\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:25:13-37
+117            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+117-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\kr4kn\.gradle\caches\transforms-3\6d1b2afc95786592ae337472f8900bc4\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:26:13-72
+118
+119        <meta-data
+119-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\kr4kn\.gradle\caches\transforms-3\cde007d45361b4c502063b91b274391c\transformed\jetified-play-services-basement-17.4.0\AndroidManifest.xml:23:9-25:69
+120            android:name="com.google.android.gms.version"
+120-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\kr4kn\.gradle\caches\transforms-3\cde007d45361b4c502063b91b274391c\transformed\jetified-play-services-basement-17.4.0\AndroidManifest.xml:24:13-58
+121            android:value="@integer/google_play_services_version" />
+121-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\kr4kn\.gradle\caches\transforms-3\cde007d45361b4c502063b91b274391c\transformed\jetified-play-services-basement-17.4.0\AndroidManifest.xml:25:13-66
+122
+123        <provider
+123-->[androidx.emoji2:emoji2:1.0.0] C:\Users\kr4kn\.gradle\caches\transforms-3\73850b32b2c7ce32b12b91c16b2382c2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+124            android:name="androidx.startup.InitializationProvider"
+124-->[androidx.emoji2:emoji2:1.0.0] C:\Users\kr4kn\.gradle\caches\transforms-3\73850b32b2c7ce32b12b91c16b2382c2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+125            android:authorities="com.DefaultCompany.MotionCapture.androidx-startup"
+125-->[androidx.emoji2:emoji2:1.0.0] C:\Users\kr4kn\.gradle\caches\transforms-3\73850b32b2c7ce32b12b91c16b2382c2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+126            android:exported="false" >
+126-->[androidx.emoji2:emoji2:1.0.0] C:\Users\kr4kn\.gradle\caches\transforms-3\73850b32b2c7ce32b12b91c16b2382c2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+127            <meta-data
+127-->[androidx.emoji2:emoji2:1.0.0] C:\Users\kr4kn\.gradle\caches\transforms-3\73850b32b2c7ce32b12b91c16b2382c2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+128                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+128-->[androidx.emoji2:emoji2:1.0.0] C:\Users\kr4kn\.gradle\caches\transforms-3\73850b32b2c7ce32b12b91c16b2382c2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+129                android:value="androidx.startup" />
+129-->[androidx.emoji2:emoji2:1.0.0] C:\Users\kr4kn\.gradle\caches\transforms-3\73850b32b2c7ce32b12b91c16b2382c2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+130            <meta-data
+130-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\kr4kn\.gradle\caches\transforms-3\280b8c662ae12c28e2c58a98b88e76a9\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+131                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+131-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\kr4kn\.gradle\caches\transforms-3\280b8c662ae12c28e2c58a98b88e76a9\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+132                android:value="androidx.startup" />
+132-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\kr4kn\.gradle\caches\transforms-3\280b8c662ae12c28e2c58a98b88e76a9\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+133        </provider>
+134    </application>
+135
+136</manifest>

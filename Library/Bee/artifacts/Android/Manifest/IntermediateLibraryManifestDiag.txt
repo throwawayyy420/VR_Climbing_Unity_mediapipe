@@ -1,0 +1,13 @@
+Using template 'C:/Program Files/Unity/Hub/Editor/2023.1.0b2/Editor/Data/PlaybackEngines/AndroidPlayer\Apk\UnityManifest.xml'
+
+android.permission.INTERNET was added because:
+	System.Net.Sockets was present in:
+		Assembly-CSharp-FeaturesChecked.txt
+	Development player
+android.hardware.touchscreen.multitouch, android.hardware.touchscreen.multitouch.distinct were enabled because:
+	UnityEngine.Input::GetTouch was present in:
+		Assembly-CSharp-FeaturesChecked.txt
+		Google.XR.Cardboard-FeaturesChecked.txt
+	UnityEngine.Input::get_touchCount was present in:
+		Assembly-CSharp-FeaturesChecked.txt
+		Google.XR.Cardboard-FeaturesChecked.txt
